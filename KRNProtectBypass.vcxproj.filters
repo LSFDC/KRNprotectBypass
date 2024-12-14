@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d22370fb-b842-4020-9804-d2b532a32166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib">
+      <UniqueIdentifier>{bbab0547-ecc9-420d-a391-b7786b69f03c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\CFramework.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\CTools.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\CFramework.h">
+      <Filter>src\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\CTools.h">
+      <Filter>src\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
