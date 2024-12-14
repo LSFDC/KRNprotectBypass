@@ -1,4 +1,5 @@
 # KRNprotectBypass
+# By Ayana
 
 KRNprotectBypass is a DLL project designed to bypass the Nprotect anti-cheat system for the game **Lost Saga**. This tool utilizes function detouring and process manipulation techniques to circumvent anti-cheat mechanisms, enabling custom modifications or reverse engineering workflows for educational and research purposes.
 
